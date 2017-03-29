@@ -4,3 +4,24 @@
 body {
     font-family: sans-serif;
 }
+
+#topBox {
+  clear: left;
+	height: 35px;
+	width: 100%;
+	padding: 10px;
+	padding-top: 35px;
+	margin: -12px;
+	background-color: rgba(0, 0, 0, 0.75);
+	color: rgb(255, 255, 255);
+}
+
+#contentBox {
+  float: left;
+	height: 800px;
+	width: 60%;
+	border: solid thick #333;
+	margin-top: 40px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
