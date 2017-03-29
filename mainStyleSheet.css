@@ -13,7 +13,7 @@ body {
 	padding-top: 35px;
 	margin: -12px;
 	background-color: rgba(0, 0, 0, 0.75);
-	color: rgb(255, 255, 255);
+	color: white;
 }
 
 #contentBox {
@@ -21,7 +21,60 @@ body {
 	height: 800px;
 	width: 60%;
 	border: solid thick #333;
+  border-top: none;
 	margin-top: 40px;
 	margin-left: 20%;
 	margin-right: 20%;
+  margin-bottom: 80px;
 }
+
+#footer {
+  float: left;
+  width:100%;
+  background:#444;
+  padding: 10px;
+  padding-bottom: 30px;
+	margin: -12px;
+}
+
+#footer h1{
+  font-size: 1.2em;
+}
+
+#navBar li {
+	float: left;
+}
+
+#navBar ul {
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navBar ul li a {
+	display: block;
+	color: white;
+  text-align: center;
+	padding: 24px 26px;
+	text-decoration: none;
+}
+
+#navBar ul li a:hover {
+	color: #333333;
+	background-color: #ff6300;
+}
+#navBar ul li a:active {
+	color: #000000;
+	background-color: #FF9900;
+}
+
+#navBar ul li a.active {
+    background-color: #e8b10a;
+    color: white;
+}
+
+#navBar ul li a:hover:not(.active) {
+    background-color: #444;
+    color: white;
