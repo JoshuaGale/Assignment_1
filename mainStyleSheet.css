@@ -3,8 +3,7 @@
 
 body {
     font-family: sans-serif;
-    background-image: url(Images/background.png);
-    background-size: cover;
+
 }
 
 #topBox {
@@ -24,13 +23,12 @@ body {
 }
 
 #contentBox {
-  float: left;
 	height: auto;
-	width: 60%;
+	width: 796px;
 	border: solid thick #333;
 	margin-top: 40px;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: auto;
+	margin-right: auto;
   margin-bottom: 80px;
   background-color: white;
 }
@@ -74,14 +72,11 @@ body {
 	display: block;
 	color: white;
   text-align: center;
-	padding: 24px 26px;
+	padding: 24px 40px;
 	text-decoration: none;
 }
 
-#navBar ul li a:hover {
-	color: #333333;
-	background-color: #ff6300;
-}
+
 
 #navBar ul li a.active {
     background-color: #ffffff;
@@ -94,4 +89,44 @@ body {
 }
 #contentSection {
     padding: 20px;
+}
+
+form {
+  width: 405px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#signupLables {
+  float: left;
+  line-height: 200%;
+  margin-right:20px;
+}
+
+#signupFields {
+  float: left;
+  line-height: 200%;
+}
+
+#verification {
+  clear: left;
+  line-height: 200%;
+}
+
+.button {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+  background-color: #444;
+  transition-duration: 0.2s;
 }
