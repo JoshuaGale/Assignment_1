@@ -29,7 +29,7 @@ body {
 	margin-top: 40px;
 	margin-left: auto;
 	margin-right: auto;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
   background-color: white;
 }
 
@@ -150,10 +150,6 @@ form {
   margin-right: auto;
 }
 
-#quickLinks li {
-  margin: 10px 0;
-}
-
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
@@ -168,3 +164,32 @@ td, th {
 
 tr:nth-child(even) {
     background-color: #dddddd;
+}
+
+.lists {
+  line-height: 200%;
+}
+
+.imageLeft {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: solid thick #333;
+}
+
+figure {
+  float: left;
+  font-size: 0.8em;
+  line-height: 50%;
+}
+
+.imageRight {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: solid thick #333;
+}
+
+#quicklinks {
+  margin-top: 100px;
+}
